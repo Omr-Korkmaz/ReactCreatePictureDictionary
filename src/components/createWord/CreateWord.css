@@ -1,0 +1,114 @@
+.single-image {
+  height: 150px;
+  width: 150px;
+}
+
+.word-create {
+  margin: auto auto;
+}
+.photo-container {
+  margin: auto auto;
+
+  text-align: center;
+}
+.photo--choose {
+  margin-left: 50px;
+  height: 30px;
+}
+
+.word-create__form {
+  position: relative;
+  max-width: 600px;
+  height: 410px;
+  margin: 50px auto 20px auto;
+  background: #a7a5f5;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.word-create__header {
+  padding: 5px;
+  position: absolute;
+  font-size: 0.8em;
+  text-align: center;
+  top: -12px;
+  background: white;
+  border: 1px solid #a7a5f5;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.word-create__title,
+.word-create__note {
+  width: 100%;
+  margin: 7px auto;
+  border: 1px solid;
+  padding: 5px;
+  font-size: 1em;
+  font-family: inherit;
+}
+.word-create__button {
+  position: absolute;
+  font-size: 0.8em;
+  right: 14px;
+  bottom: 10px;
+  background: black;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  width: 50px;
+  height: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .word-create__form {
+    max-width: 500px;
+    margin: 50px auto 20px auto;
+    height: 430px;
+  }
+  .word-create__header {
+    font-size: 1em;
+  }
+  .word-create__title,
+  .word-create__note {
+    padding: 8px;
+    font-size: 1.1em;
+  }
+  .word-create__button {
+    position: absolute;
+    font-size: 0.9em;
+    right: 14px;
+    bottom: 5px;
+    width: 65px;
+    height: 35px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .word-create__form {
+    height: 460px;
+    max-width: 650px;
+    margin: 50px auto 20px auto;
+  }
+  .word-create__header {
+    font-size: 1.2em;
+  }
+  .word-create__title,
+  .word-create__note {
+    padding: 8px;
+    font-size: 1.3em;
+  }
+  .word-create__button {
+    position: absolute;
+    font-size: 1.2em;
+    right: 14px;
+    bottom: 14px;
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+  }
+}

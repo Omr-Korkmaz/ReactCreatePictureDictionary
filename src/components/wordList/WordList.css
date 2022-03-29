@@ -1,0 +1,28 @@
+
+
+.single-image{
+    height: 150px;
+    width: 150px;
+
+}
+  
+  .word-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media only screen and (min-width: 992px) {
+
+
+    .word-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+  
+  
+    }
